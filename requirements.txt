@@ -1,0 +1,16 @@
+# Install torch/torchvision for your CPU or CUDA first; see README.md.
+torch>=2.6
+torchvision
+timm==1.0.29
+numpy
+opencv-python
+Pillow
+matplotlib
+tqdm
+einops==0.8.2
+h5py==3.16.0
+pyserial==3.5
+cv2-enumerate-cameras==1.4.0
+scipy
+
+imageio

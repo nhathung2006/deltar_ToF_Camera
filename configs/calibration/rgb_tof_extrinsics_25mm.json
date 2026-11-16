@@ -1,0 +1,331 @@
+{
+  "status": "APPROXIMATE_INITIALIZATION_REQUIRES_INDEPENDENT_VALIDATION",
+  "transform": "P_camera_m = R_tof_to_camera @ P_tof_m + t_tof_to_camera_m",
+  "R_tof_to_camera": [
+    [
+      0.9974292436365952,
+      0.05506380877593835,
+      0.04585717939010602
+    ],
+    [
+      -0.055219960207575955,
+      0.998471911214963,
+      0.0021444135358261894
+    ],
+    [
+      -0.045669025971693304,
+      -0.004671132392236505,
+      0.9989457045250112
+    ]
+  ],
+  "t_tof_to_camera_m": [
+    -0.00018095717948096225,
+    0.012095269921864058,
+    0.017549216072056655
+  ],
+  "tof_fov_xy_deg": [
+    45.0,
+    45.0
+  ],
+  "depth_convention": "z",
+  "ray_model": "nominal pinhole zone centres; not measured per-zone angular response",
+  "rotate_tof_ccw": 180,
+  "flip_tof_x": false,
+  "flip_tof_y": false,
+  "camera": {
+    "columns": 9,
+    "rows": 6,
+    "square_mm": 25.0,
+    "image_size": [
+      640,
+      480
+    ],
+    "kind": "camera_intrinsic_capture",
+    "K": [
+      [
+        801.5251139927316,
+        0.0,
+        314.5306933865262
+      ],
+      [
+        0.0,
+        801.6068896147149,
+        258.04834846179153
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "distortion": [
+      -0.12153661659072058,
+      1.115251669486356,
+      0.007433528460580291,
+      -0.0038797141043111203,
+      -3.453185205470487
+    ],
+    "train_rms_px": 0.7135380772984211,
+    "views": [
+      {
+        "image": "rgb_0000.png",
+        "rms_px": 0.7982156276702881,
+        "split": "train"
+      },
+      {
+        "image": "rgb_0001.png",
+        "rms_px": 0.6217299699783325,
+        "split": "train"
+      },
+      {
+        "image": "rgb_0002.png",
+        "rms_px": 0.5073186755180359,
+        "split": "validation"
+      },
+      {
+        "image": "rgb_0003.png",
+        "rms_px": 0.617747962474823,
+        "split": "validation"
+      },
+      {
+        "image": "rgb_0004.png",
+        "rms_px": 0.6791849732398987,
+        "split": "train"
+      },
+      {
+        "image": "rgb_0005.png",
+        "rms_px": 0.4246995747089386,
+        "split": "train"
+      },
+      {
+        "image": "rgb_0006.png",
+        "rms_px": 0.5982559323310852,
+        "split": "train"
+      },
+      {
+        "image": "rgb_0007.png",
+        "rms_px": 0.8477635979652405,
+        "split": "train"
+      },
+      {
+        "image": "rgb_0008.png",
+        "rms_px": 0.7529525756835938,
+        "split": "train"
+      },
+      {
+        "image": "rgb_0009.png",
+        "rms_px": 0.7159109711647034,
+        "split": "train"
+      },
+      {
+        "image": "rgb_0010.png",
+        "rms_px": 0.6890335083007812,
+        "split": "train"
+      },
+      {
+        "image": "rgb_0011.png",
+        "rms_px": 0.8031377792358398,
+        "split": "train"
+      },
+      {
+        "image": "rgb_0012.png",
+        "rms_px": 0.820426881313324,
+        "split": "train"
+      },
+      {
+        "image": "rgb_0013.png",
+        "rms_px": 0.6051422953605652,
+        "split": "train"
+      },
+      {
+        "image": "rgb_0014.png",
+        "rms_px": 0.7469190955162048,
+        "split": "validation"
+      },
+      {
+        "image": "rgb_0025.png",
+        "rms_px": 0.9811375737190247,
+        "split": "train"
+      },
+      {
+        "image": "rgb_0026.png",
+        "rms_px": 1.0434917211532593,
+        "split": "train"
+      },
+      {
+        "image": "rgb_0027.png",
+        "rms_px": 0.45807746052742004,
+        "split": "train"
+      },
+      {
+        "image": "rgb_0028.png",
+        "rms_px": 0.4304371476173401,
+        "split": "train"
+      },
+      {
+        "image": "rgb_0029.png",
+        "rms_px": 0.4569372534751892,
+        "split": "train"
+      },
+      {
+        "image": "rgb_0030.png",
+        "rms_px": 0.5639653205871582,
+        "split": "validation"
+      },
+      {
+        "image": "rgb_0031.png",
+        "rms_px": 0.6274394989013672,
+        "split": "train"
+      },
+      {
+        "image": "rgb_0032.png",
+        "rms_px": 0.7912741303443909,
+        "split": "train"
+      },
+      {
+        "image": "rgb_0033.png",
+        "rms_px": 0.8380320072174072,
+        "split": "validation"
+      },
+      {
+        "image": "rgb_0034.png",
+        "rms_px": 0.9378847479820251,
+        "split": "train"
+      },
+      {
+        "image": "rgb_0035.png",
+        "rms_px": 0.4326176643371582,
+        "split": "train"
+      },
+      {
+        "image": "rgb_0036.png",
+        "rms_px": 0.4158014953136444,
+        "split": "train"
+      },
+      {
+        "image": "rgb_0037.png",
+        "rms_px": 0.8888895511627197,
+        "split": "train"
+      },
+      {
+        "image": "rgb_0038.png",
+        "rms_px": 0.724303662776947,
+        "split": "train"
+      },
+      {
+        "image": "rgb_0039.png",
+        "rms_px": 0.7026795744895935,
+        "split": "validation"
+      },
+      {
+        "image": "rgb_0040.png",
+        "rms_px": 0.6758934259414673,
+        "split": "train"
+      },
+      {
+        "image": "rgb_0041.png",
+        "rms_px": 0.5233092308044434,
+        "split": "train"
+      },
+      {
+        "image": "rgb_0042.png",
+        "rms_px": 0.5215458869934082,
+        "split": "validation"
+      },
+      {
+        "image": "rgb_0043.png",
+        "rms_px": 0.9293583035469055,
+        "split": "train"
+      },
+      {
+        "image": "rgb_0044.png",
+        "rms_px": 0.6717720627784729,
+        "split": "train"
+      }
+    ],
+    "validation_mean_rms_px": 0.6426012175423759,
+    "valid_images": 35,
+    "model": "OpenCV pinhole + 5 distortion coefficients",
+    "status": "estimated; inspect image coverage and independent validation before use"
+  },
+  "target": {
+    "columns": 9,
+    "rows": 6,
+    "square_mm": 25.0
+  },
+  "metrics": {
+    "training_mae_mm": 4.1730652341869785,
+    "validation_mae_mm": 6.499976184705627,
+    "validation_p95_abs_mm": 15.853536832590942,
+    "normal_diversity_ratio": 0.13872952150637988,
+    "training_poses": 20,
+    "validation_poses": 4,
+    "translation_norm_mm": 21.31439149324434,
+    "per_pose_mae_mm": [
+      2.0512263078965605,
+      6.288823215167739,
+      4.623086110140031,
+      5.935293126858218,
+      5.711279265250857,
+      2.574201989904398,
+      2.377575695921253,
+      2.099606434191114,
+      4.835510725165613,
+      5.322916048312365,
+      4.066294781155276,
+      3.22967125955686,
+      2.1224290896809035,
+      1.7347754493323744,
+      3.9637551756265994,
+      6.525801933200738,
+      5.935761016778077,
+      9.118984809298754,
+      7.7323173675369565,
+      4.698609133113873,
+      4.017478518207808,
+      5.498784014828482,
+      6.158975908740427,
+      2.8380520466967973
+    ]
+  },
+  "pose_order": [
+    "pose_0000",
+    "pose_0001",
+    "pose_0002",
+    "pose_0003",
+    "pose_0004",
+    "pose_0005",
+    "pose_0006",
+    "pose_0007",
+    "pose_0008",
+    "pose_0009",
+    "pose_0010",
+    "pose_0011",
+    "pose_0012",
+    "pose_0013",
+    "pose_0014",
+    "pose_0015",
+    "pose_0016",
+    "pose_0017",
+    "pose_0018",
+    "pose_0019",
+    "pose_0020",
+    "pose_0023",
+    "pose_0028",
+    "pose_0029"
+  ],
+  "validation_poses": [
+    "pose_0001",
+    "pose_0010",
+    "pose_0015",
+    "pose_0017"
+  ],
+  "skipped_poses": [],
+  "input_path": "data/calibration/plane_pairs_25mm",
+  "limitations": [
+    "single-target distance is a zone measurement, not an exact centre-ray point",
+    "nominal FoV and range/Z convention must be validated for this sensor",
+    "host timestamps are not exposure synchronization",
+    "low plane residual alone does not establish correct pixel alignment"
+  ]
+}

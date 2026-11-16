@@ -1,0 +1,13 @@
+*.py[cod]
+**/__pycache__/
+.venv/
+.env
+.idea/
+.vscode/
+data/
+outputs/
+wandb/
+checkpoints/
+.diagnostics/
+tmp/
+*.gif
